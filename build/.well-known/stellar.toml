@@ -1,44 +1,29 @@
 VERSION="2.2.1"
 
 ACCOUNTS=[
-"GDVXGSOY55AFT5Q36UDSAAM6ZF6AD3ESU6AULVQ6J5JMYBR5TQC5MXZ5",
-"GAE36C6A4JV3NMRU3TZPGZ4OATNED4QZIYQ7CT5ERT4Y2PG3EOP4BPUI"
+"GDO5VS2BODGNBMZXWZGDWHVUZHJ4IEGTMRJCCJWFQSVZ7R6CGF2BX7NE",
 ]
 
 [DOCUMENTATION]
-ORG_NAME="TonCoin"
-ORG_URL="https://ton-stellar.com"
-ORG_DESCRIPTION="Toncoin is TON's native cryptocurrency. It is used for network operations, transactions, games or collectibles built on TON."
-ORG_LOGO="https://i.ibb.co/LhtfzPD/TonCoinn.png"
+ORG_NAME="REMAX"
+ORG_URL="https://remax-stellar.org"
+ORG_DESCRIPTION="RE/MAX is a global real estate franchise network, offering buying, selling, and leasing services across more than 100 countries, renowned for its expertise and local market knowledge."
+ORG_LOGO="https://i.ibb.co/DVbjwr9/REMAX.jpg"
 
 [[PRINCIPALS]]
-name="Slava Yakimenko"
+name="William Levin"
 
 
 [[CURRENCIES]]
-code="TON"
+code="RMXC"
 status="live"
 display_decimals=2
-issuer="GDVXGSOY55AFT5Q36UDSAAM6ZF6AD3ESU6AULVQ6J5JMYBR5TQC5MXZ5"
-anchor_asset_type="crypto"
-name="TonCoin"
-desc="Unlocking freedom with Decentralized Finance"
-image="https://i.ibb.co/LhtfzPD/TonCoinn.png"
-fixed_number=2000000
-max_number=2000000
+issuer="GDO5VS2BODGNBMZXWZGDWHVUZHJ4IEGTMRJCCJWFQSVZ7R6CGF2BX7NE"
+anchor_asset_type="realestate"
+name="REMAXCoin"
+desc="RE/MAX is a global real estate franchise network, offering buying, selling, and leasing services across more than 100 countries, renowned for its expertise and local market knowledge."
+image="https://i.ibb.co/fQss1w9/IMG-2451.png"
+fixed_number=70000000
+max_number=70000000
 is_unlimited=false
-# TonCoin was issued using the open and inclusive Stellar blockchain network.
-
-[[CURRENCIES]]
-code="TONX"
-status="live"
-display_decimals=2
-issuer="GAE36C6A4JV3NMRU3TZPGZ4OATNED4QZIYQ7CT5ERT4Y2PG3EOP4BPUI"
-anchor_asset_type="crypto"
-name="TonX"
-desc="TON and X collaborate to integrate blockchain for secure, decentralized social media transactions, enhancing user control and monetization."
-image="https://i.ibb.co/B3pkY4M/TONX.png"
-fixed_number=10000000
-max_number=10000000
-is_unlimited=false
-# TonX was issued using the open and inclusive Stellar blockchain network.
+# REMAXCoin was issued using the open and inclusive Stellar blockchain network.
